@@ -1,0 +1,48 @@
+.logo {
+    margin: 10px;
+    height: 40px;
+    width: 100px;
+    border: 2px solid #fff;
+    border-top-width: 3px;
+    border-right: none;
+    border-top-left-radius: 8px;
+    border-bottom-right-radius: 24px;
+    color: #fff;
+    transition-duration: 0.3s;
+}
+
+.logo:hover {
+    border-radius: 0;
+    width: 252px;
+    transition-duration: 0.3s;
+    border-bottom-left-radius: 24px;
+    box-shadow: inset 2px 2px 3px #000;
+    border-top-right-radius: 24px;
+    border-color: #f5b342;
+    color: #f5b342;
+    text-shadow: 2px 2px 2px #000;
+}
+
+.logo:hover .logo-text {
+    margin-left: 160px;
+    text-shadow: 2px 2px 2px #000;
+    color: #f5b342;
+    transition-duration: 0.3s;
+}
+
+.logo-name {
+    width: 300px;
+    font-family: 'Supermercado One', cursive;
+    line-height: 0;
+    margin-top: 9px;
+    margin-left: 3px;
+    margin-bottom: 2px;
+    font-size: 20px;
+}
+
+.logo-text {
+    font-size: 14px;
+    font-weight: 600;
+    margin-left: 23px;
+    transition-duration: 0.3s;
+}
